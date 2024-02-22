@@ -20,3 +20,15 @@ w
 G.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,e/d/ed67eb178d523a4b3f117dcbe0eda5196367ceec
 O
 src/main/java/com/mmr/Main.java,1/f/1f7551a0f1d930014a3f5142562a9ea0014b2526
+[
++src/main/java/com/mmr/models/Abilities.java,d/7/d790940f123f15e89ae8f627e090225c5874f1fb
+X
+(src/main/java/com/mmr/models/Skills.java,7/d/7d43e6477db6d057d1ec01653cde1c74a5e6f52c
+b
+2src/main/java/com/mmr/denominations/Abilities.java,d/6/d6ba4c5f88bfdd57a13562ab1708f0033b5bb452
+_
+/src/main/java/com/mmr/denominations/Skills.java,0/1/011be27ad996189c5387a3e415ad86f4be6a6f45
+Q
+!src/main/java/com/mmr/Player.java,1/9/19911320e80d98bbdb8da1fed79d620310b17c93
+X
+(src/main/java/com/mmr/models/Player.java,6/8/689946983a872027e40cb13f71c76b08c0e17893
