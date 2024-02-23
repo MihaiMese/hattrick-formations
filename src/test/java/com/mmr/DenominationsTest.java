@@ -1,20 +1,20 @@
 package com.mmr;
 
-import com.mmr.denominations.Abilities;
+import com.mmr.denominations.Ability;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
-import static com.mmr.denominations.Abilities.*;
+import static com.mmr.denominations.Ability.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class DenominationsTest {
 
     @ParameterizedTest
     @MethodSource("provideAbilitiesAndExpectedValues")
-    void abilitiesHaveTheCorrectValues(Abilities ability, byte value) {
+    void abilitiesHaveTheCorrectValues(Ability ability, byte value) {
         assertEquals(value, ability.getVal());
     }
 

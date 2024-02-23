@@ -1,6 +1,6 @@
 package com.mmr.denominations;
 
-public enum Abilities {
+public enum Ability {
     NON_EXISTENT((byte) 0),
     DISASTROUS((byte) 1),
     WRETCHED((byte) 2),
@@ -25,7 +25,7 @@ public enum Abilities {
 
     private final byte val;
 
-    Abilities(byte i) {
+    Ability(byte i) {
         val = i;
     }
 
